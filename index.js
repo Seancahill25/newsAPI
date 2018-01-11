@@ -1,10 +1,10 @@
 /*global $ APIKEY*/
 $(document).ready(function() {
 	$.ajax({
-		//   method: "GET",
+	   method: "GET",
 		url: "https://newsapi.org/v2/sources",
 		data: {
-			category: "sport",
+			category: "sports",
 			country: "us",
 			language: "en",
 			apiKey: APIKEY
